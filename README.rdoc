@@ -1,0 +1,10 @@
+== README
+Currently if you start this application it will use the [status_client](https://github.com/JiggyPete/status_client) gem to create a new status in the [status](https://github.com/JiggyPete/status) application
+
+To get the application up and running you'll need to run the following
+```
+bundle install
+rails s -p 4000
+```
+and you will also need to have the [status](https://github.com/JiggyPete/status) application running too.
+Instructions for the status application can be found [here]([status](https://github.com/JiggyPete/status) application)

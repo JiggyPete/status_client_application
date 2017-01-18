@@ -1,0 +1,5 @@
+<%= form_tag('/status') do -%>
+  <div><%= label_tag 'State' %> <%= select_tag 'state', options_for_select(["UP", "DOWN"]) %><%= %></div>
+  <div><%= label_tag 'Message' %> <%= text_field_tag 'message' %></div>
+  <div><%= submit_tag 'Save' %></div>
+<% end -%>
